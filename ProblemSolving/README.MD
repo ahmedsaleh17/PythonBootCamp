@@ -1,12 +1,12 @@
 # Problem1: WeIrD StRiNg CaSe
-```
+
 Description:
 
 Write a function that accepts a string, and returns the same string with all even indexed characters in each word upper cased, and all odd indexed characters in each word lower cased. The indexing just explained is zero based, so the zero-ith index is even, therefore that character should be upper cased and you need to start over for each word.
 
 The passed in string will only consist of alphabetical characters and spaces(' '). Spaces will only be present if there are multiple words. Words will be separated by a single space(' ').
 Examples:
-
+```
 "String" => "StRiNg"
 "Weird string case" => "WeIrD StRiNg CaSe"
 ```
@@ -27,14 +27,14 @@ One of the simplest, yet most important factors is compensation. As developers w
 Let's give this a try. We'll create a function match (job_matching in Python) which takes a candidate and a job, which will return a Boolean indicating whether the job is a valid match for the candidate.
 
 A candidate will have a minimum salary, so it will look like this:
-```json 
+```
 candidate = {
   'min_salary': 120000
 }
 ```
 
 A job will have a maximum salary, so it will look like this:
-```json
+```
 job = {
   'max_salary': 140000
 }

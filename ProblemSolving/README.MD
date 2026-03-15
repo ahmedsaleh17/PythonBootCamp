@@ -54,9 +54,11 @@ Consider a matchmaking system that is designed to deliver jobs to software devel
 This means that somewhere in the system there exists functionality to take a job and match it against enrolled candidates. There are several factors that go into this matching, but we'll focus on two for the purposes of this Kata.
 
 Create a function match which takes a job, and filters a list of candidates to the ones that match the job. We'll focus on two matching properties for this Kata: equity and location.
+
 Equity
 
 The candidate has an equity property (boolean) indicating if they desire equity, while the job will have a maximum equity property (float) representing the max amount of equity offered. If the maximum equity is zero, we can infer there is no equity offered. A job will match unless the candidate desires equity, but the job does not offer any.
+
 Location
 
 The candidate will have two location properties: current location and desired locations. A job can be located in multiple places as well which will be represented by its locations property. A match is when a job location is either in the candidate's current location or any of the candidate's desired locations.
@@ -81,3 +83,52 @@ job = {
 ```
 
 [Job Matching #2 Solution](03.py)
+
+
+---------
+
+# Problem4: KISS - Keep It Simple Stupid
+
+Description:
+
+KISS stands for Keep It Simple Stupid. It is a design principle for keeping things simple rather than complex.
+
+You are the boss of Joe.
+
+Joe is submitting words to you to publish to a blog. He likes to complicate things.
+
+Define a function that determines if Joe's work is simple or complex.
+
+Input will be non emtpy strings with no punctuation.
+
+It is simple if: the length of each word does not exceed the amount of words in the string (See example test cases)
+
+Otherwise it is complex.
+```
+If complex:
+return "Keep It Simple Stupid"
+```
+or 
+```
+if it was kept simple:
+return "Good work Joe!"
+```
+[KISS - Keep It Simple Stupid Solution](04.py)
+
+
+---------
+
+# Problem5: Create Phone Number
+
+Description:
+
+Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.
+Example
+```
+create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) # => returns "(123) 456-7890"
+```
+The returned format must be correct in order to complete this challenge.
+
+Don't forget the space after the closing parentheses!
+
+[Create Phone Number Solution](05.py)

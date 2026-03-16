@@ -132,3 +132,15 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
 [Create Phone Number Solution](05.py)
+
+--- 
+# Problem 6: Factorial Formula
+Given a number nn, write a formula that returns n!n!.
+
+In case you forgot the factorial formula, n!=n∗(n−1)∗(n−2)∗.....2∗1n!=n∗(n−1)∗(n−2)∗.....2∗1.
+
+For example, 5!=5∗4∗3∗2∗1=1205!=5∗4∗3∗2∗1=120 so we'd return 120.
+
+Assume is nn is a non-negative integer.
+
+[Factorial Formula Solution](06.py)

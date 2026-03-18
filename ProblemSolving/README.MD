@@ -219,3 +219,17 @@ Explanation:
 The diagonal [8, 1] does not consist of elements of the same stripe.
 
 [Same stripes Solution](08.py)
+-----
+
+# Problem 9: Intersection of Two Lists
+Write a function to get the intersection of two lists.
+
+For example, 
+
+if A = [1, 2, 3, 4, 5], and B = [0, 1, 3, 7] then you should return [1, 3].
+
+[Intersection_of_two_lists_Solution](09.py)
+
+--- 
+
+# problem 10: 

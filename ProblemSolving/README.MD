@@ -12,9 +12,7 @@ Examples:
 ```
 
 [WeIrD StRiNg CaSe solution](01.py) 
-
-
--------------------------------------------------
+---
 
 # Problem2: Job Matching #1
 
@@ -44,7 +42,6 @@ If either the candidate's minimum salary or the job's maximum salary is not pres
 For a valid match, the candidate's minimum salary must be less than or equal to the job's maximum salary. However, let's also include 10% wiggle room (deducted from the candidate's minimum salary) in case the candidate is a rockstar who enjoys programming on Codewars in their spare time. The company offering the job may be able to work something out. 
 
 [Job Matching #1 Solution](02.py)
-
 --- 
 # Problem3: Job Matching #2 
 Description:
@@ -83,9 +80,7 @@ job = {
 ```
 
 [Job Matching #2 Solution](03.py)
-
-
----------
+---
 
 # Problem4: KISS - Keep It Simple Stupid
 
@@ -114,9 +109,7 @@ if it was kept simple:
 return "Good work Joe!"
 ```
 [KISS - Keep It Simple Stupid Solution](04.py)
-
-
----------
+---
 
 # Problem5: Create Phone Number
 
@@ -132,8 +125,7 @@ The returned format must be correct in order to complete this challenge.
 Don't forget the space after the closing parentheses!
 
 [Create Phone Number Solution](05.py)
-
---- 
+---
 # Problem 6: Factorial Formula
 Given a number nn, write a formula that returns n!n!.
 
@@ -145,9 +137,7 @@ For example, 5!=5∗4∗3∗2∗1=120
 Assume is nn is a non-negative integer.
 
 [Factorial Formula Solution](06.py)
-
-
----- 
+--- 
 # Problem 7: Base 13 Conversion
 Given an integer num, return its string representation in base 13.
 
@@ -175,8 +165,6 @@ Let's use 49 as an example and go through each step:
     Next, divide 3 by 13. The quotient is 0, and the remainder is 3.
 
 [Base 13 conversion Solution](07.py)
-
-
 ---
 
 # Problem 8: Same Stripes
@@ -229,7 +217,42 @@ For example,
 if A = [1, 2, 3, 4, 5], and B = [0, 1, 3, 7] then you should return [1, 3].
 
 [Intersection_of_two_lists_Solution](09.py)
-
 --- 
 
-# problem 10: 
+# problem 10: Another One
+We're trying to create a digital clone of DJ Khaled. No fancy AI or alorithms needed.
+
+Just take a number and add another one:
+
+![another one](images/another%20one.png)
+
+More specifically, you are given an integer array digits, where each digits[i] is the ith digit of positive whole number. It is ordered from most significant to least significant digit.
+
+
+Return an array of digits of the number after adding another one to the input.
+Example #1
+
+Input: digits = [1, 2, 3]
+
+Output: [1, 2, 4]
+
+Example #2
+
+Input: digits = [6, 9]
+
+Output: [7, 0]
+
+Example #3
+
+Input: digits = [9, 9]
+
+Output: [1, 0, 0]
+
+
+Let's break the problem down into an easier version:
+
+What if the last digit is not 9? In that case, all we need to do is add 1 to the last digit and return the updated array.
+
+[Another One Solution](10.py)
+---
+

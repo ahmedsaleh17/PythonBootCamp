@@ -267,7 +267,7 @@ The Weakest Strong Link is defined as the weakest chain-link in its row but also
 Given a matrix strength, return the weakest strong link if it exists; otherwise, return -1. If a weakest strong link exists, it is always exactly one, and it can be proven that no other link will satisfy both conditions simultaneously.
 Example #1
 
-Input: strength = [[1, 2, 3] ,[4, 5, 6] ,[7, 8, 9]]
+Input: strength = [[1, 2, 3] , [4, 5, 6] , [7, 8, 9]]
 
 Output: 7
 
@@ -276,3 +276,16 @@ Explanation:
 and the strongest in its column [1, 4, 7], making it the Weakest Strong Link.
 
 ![alt text](images/weakstronglink.png)
+
+
+Example #2
+
+Input: strength = [[9, 8, 10] , [6, 15, 4]]
+
+Output: -1
+
+Explanation:
+No chain-link satisfies the criteria of being the weakest in its row and the strongest in its column.
+
+[Weakest strong link solution](11.py)
+---

@@ -1,0 +1,21 @@
+order_id,customer_id,product_name,quantity,unit_price,status
+1001,501,Laptop,2,1250.50,shipped
+1002,502,Mouse,3,25.00,pending
+1003,503,Keyboard,1,75.99,shipped
+1004,504,Monitor,2,350.00,pending
+1005,505,Headphones,1,89.99,cancelled
+1006,506,Webcam,4,45.50,shipped
+1007,507,USB Cable,5,8.99,pending
+1008,508,Desk,1,200.00,shipped
+1009,509,Chair,2,150.00,pending
+1010,510,Tablet,1,450.00,shipped
+1011,511,Invalid ID,2,100.00,shipped
+ABC,512,Mouse,2,25.00,pending
+1013,-5,Keyboard,1,75.00,shipped
+1014,514,Monitor,0,350.00,pending
+1015,515,Headphones,2,-50.00,shipped
+1016,516,Webcam,1,0,shipped
+1017,517,Laptop,2,1200.00,delivered
+1018,518,,1,50.00,pending
+1019,519,Mouse,2.5,25.00,pending
+1020,,Keyboard,1,75.00,shipped
